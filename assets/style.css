@@ -1,7 +1,10 @@
 :root {
-    --primary-color: #6470A3;
-    --secondary-color: #007E97;
-    --tertiary-color: #377F66;
+    --bg1-color: #6470A3;
+    --bg2-color: #007E97;
+    --bg3-color: #377F66;
+    --text1-color: white;
+    --text2-color: black;
+
   }
   
   * {
@@ -10,4 +13,139 @@
       padding: 0;
       box-sizing: border-box;
   
+  }
+
+
+/* Header Style Start */
+
+header {
+ 
+    background-color: var(--bg1-color)
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-image: url("../images/hero-bg.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 80%;
+    z-index: 9999;
+    
+}
+
+header h1 {
+
+    font-weight: bold;
+    font-size: 36px;
+    color: var(--text2-color);
+    margin: 0;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+}
+ 
+header a {
+    
+    text-decoration: none;
+    color: var(--text2-color);
+    
+}
+
+header nav {
+
+    margin: 7px 0;
+}
+
+header nav ul {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    
+}
+
+header nav ul li a {
+
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+}
+
+header nav ul li a:hover {
+
+  background: var(--bg2-color);
+  color: var(--text2-color);
+  border-radius: 15px;
+  text-shadow: none;
+
+}
+
+/* Header Style End */   
+
+/* Icon bar Start */   
+
+.icon-bar a img {
+
+    width: 24px !important;
+    height: 24px !important;
+    
+}
+
+
+
+
+  .section-title {
+    font-size: 55px;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    display: inline-block;
+    border-bottom: 3px solid;
+    
+  }
+
+  /*Page Background + Text Style*/
+  
+  .page-style-1 {
+
+    background-color: var(--bg1-color);
+
+  }
+
+  .page-style-2{
+
+    background-color: var(--bg3-color);
+
+  }
+
+  .page-style-3{
+
+    background-color: var(--bg2-color);
+
+  }
+  
+  
+
+  .page-style-1 h2{
+
+    color: red;
+
+  }
+
+  .page-style-2 h2{
+
+    color: blue;
+    
+
+  }
+
+  .page-style-3 h2{
+
+    color: green;
+
   }
