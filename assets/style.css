@@ -20,7 +20,7 @@
 
 header {
  
-    background-color: var(--bg1-color)
+    background-color: var(--bg1-color);
     padding: 20px;
     display: flex;
     justify-content: space-between;
@@ -28,7 +28,6 @@ header {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    background-image: url("../images/hero-bg.jpg");
     background-size: cover;
     background-attachment: fixed;
     background-position: 80%;
