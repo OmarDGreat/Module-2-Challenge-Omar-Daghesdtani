@@ -117,13 +117,15 @@ header nav ul li a:hover, header div:hover {
   justify-content: space-around;
   background-color: none;
   flex: 1;
+  
 }
 
 
 .content img {
 
-  width: 60%; 
+  width: 100%; 
   border: 5px solid var(--bg1-color);
+  position: relative;
 
 }
 /*Content End*/
@@ -150,6 +152,13 @@ section{
   
 }
 
+.project-border {
+    background-color: green;
+    border: 5px solid var(--bg1-color);
+    margin-bottom: auto;
+
+}
+
 .page-style-1 {
   background-color: var(--bg1-color);
 }
@@ -172,5 +181,27 @@ section{
   height: 24px !important;
 }
 
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  font-style: italic;
+  
+  
+  
+}
+
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 45px;
+  left: 16px;
+  background-color: #377F66;
+  border: #6470A3 solid 3px;
+  margin-left: -13px;
+}
 
 
+ 
