@@ -114,13 +114,13 @@ header nav ul li a:hover, header div:hover {
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   background-color: none;
   flex: 1;
   
 }
 
-.content-1 {
+/* .content-1 {
 
   width: 100%;
   margin: 0 auto;
@@ -130,7 +130,7 @@ header nav ul li a:hover, header div:hover {
   background-color: none;
   flex: 1;
   
-}
+} */
 
 
 .content img {
@@ -138,13 +138,14 @@ header nav ul li a:hover, header div:hover {
   max-width: 100%;
   border: 3px solid var(--bg1-color);
   position: relative;
+  justify-content: center;
 
 }
 
 .smaller-img {
 
   
-  max-width: 49%; 
+  max-width: 48%; 
   border: 0px solid var(--bg1-color);
   position: relative;
 
@@ -245,7 +246,6 @@ section{
       padding-bottom: 0;
       justify-content: center;
       position: relative;
-
     }
   
   header h1 {
@@ -269,14 +269,14 @@ section{
     flex-wrap: wrap;
     justify-content: center;
     flex: 1;
-    }
+    text-align: center;
     
-  .container {
-      text-align: center;
-    }  
+
+    }
     
   .content {
       flex: 0 70%;
+      
     }
   
 
